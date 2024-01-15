@@ -27,30 +27,31 @@
 
      <div class="signup">
         <div class="box">
-            <form class="signup-form">
+            <form id="signup-form" class="signup-form" onsubmit="save(event)">
                 <h1> CREATE YOUR ACCOUNT</h1>  
                 <div class="field">
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your fullname" />
+                    <input class="input" type="text" id="names" name="name" placeholder="Enter your fullname" />
                 </div>
 
                 <div class="field">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" />
+                    <input class="input" type="email" id="email" name="email" placeholder="Enter your email" />
                 </div>
 
                 <div class="field">
                     <label for="setPassword">Set Password:</label>
-                    <input type="password" id="setPassword" name="setPassword" placeholder="Set your password" />
+                    <input class="input" type="password" id="setPassword" name="setPassword" placeholder="Set your password" />
                 </div>
                 <div class="field">
                     <label for="confirmPassword">Confirm Password:</label>
-                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" />
+                    <input class="input" type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" />
                    
                 </div>
+
+                <input class="btn" type="submit" id="submit" >
             </form>
         </div>
-        
      </div>
 
 
