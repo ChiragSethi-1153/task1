@@ -77,6 +77,52 @@ body {
 .btn:hover{
     cursor: pointer;
 }
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero {
+    background-color: black;
+    opacity: 0.8;
+    width: 70%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.left {
+    text-align: right;
+}
+
+.hero-content{
+    
+    display: flex;
+    gap: 20px;
+}
+.hero-content > div >h1 {
+    color: #FF7101;
+}
+.hero-content >img {
+    width: 100px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 700px)  {
     .header{
