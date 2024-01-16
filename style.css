@@ -18,9 +18,7 @@ body {
     justify-content: space-around;
     padding: 5%;
 }
-.logo{
-    
-}
+
 .logo > h1 {
     color: #FF7101;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -84,8 +82,6 @@ body {
     padding-top: 5%;
     padding-left: 9%;
     padding-right: 5%;
-    /* justify-content: center;
-    align-items: center; */
 }
 
 .main-content {
@@ -117,7 +113,6 @@ body {
 }
 
 .FORM {
-    /* padding-right: 4%; */
     width: 50%;
     display: flex;
     justify-content: center;
@@ -254,9 +249,6 @@ body {
         padding: 5%;
         align-items: center;
     }
-    .logo{
-        
-    }
     .logo > h1 {
         color: #FF7101;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -276,8 +268,11 @@ body {
     }
     
     .dropbtn {
-        background: none;
-        padding: 16px;
+        background-image: url("./images/lines.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 40px;
         font-size: 16px;
         border: none;
         cursor: pointer;
@@ -336,7 +331,6 @@ body {
     }
     
     .FORM {
-        /* padding-right: 4%; */
         width: 100%;
         display: flex;
         justify-content: center;
@@ -366,9 +360,6 @@ body {
     }
 }
 
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 700px) and (max-width:1000px) {
     
     
@@ -379,9 +370,7 @@ body {
         padding: 5%;
         align-items: center;
     }
-    .logo{
-        
-    }
+
     .logo > h1 {
         color: #FF7101;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -438,7 +427,6 @@ body {
     }
     
     .FORM {
-        /* padding-right: 4%; */
         width: 100%;
         display: flex;
         justify-content: center;
@@ -458,7 +446,6 @@ body {
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 1000px) {
     .main {
         display: flex;
@@ -466,8 +453,6 @@ body {
         padding-top: 5%;
         padding-left: 9%;
         padding-right: 1%;
-        /* justify-content: center;
-        align-items: center; */
     }
     
     .main-content {
@@ -476,7 +461,6 @@ body {
     }
     
     .FORM {
-        /* padding-right: 4%; */
         width: 50%;
         display: flex;
         justify-content: center;
@@ -495,7 +479,6 @@ body {
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1300px) {
     .main {
         display: flex;
@@ -503,8 +486,6 @@ body {
         padding-top: 5%;
         padding-left: 9%;
         padding-right: 5%;
-        /* justify-content: center;
-        align-items: center; */
     }
     
     .main-content {
@@ -513,7 +494,6 @@ body {
     }
     
     .FORM {
-        /* padding-right: 4%; */
         width: 50%;
         display: flex;
         justify-content: center;
@@ -532,7 +512,6 @@ body {
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1500px) {
 
     .main {
@@ -541,8 +520,6 @@ body {
         padding-top: 5%;
         padding-left: 9%;
         padding-right: 5%;
-        /* justify-content: center;
-        align-items: center; */
     }
     
     .main-content {
@@ -551,7 +528,6 @@ body {
     }
 
     .FORM {
-        /* padding-right: 4%; */
         width: 45%;
         display: flex;
         justify-content: center;
