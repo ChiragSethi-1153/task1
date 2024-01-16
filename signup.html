@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
     <title>Task 2</title>
 </head>
 <body>
-    <div class="header">
+     <!-- HEADER SECTION -->
+     <div class="header">
         <div class="logo">
             <h1>PraRoz</h1>
         </div>
@@ -23,8 +25,12 @@
             </ul>
 
         </div>
+
+        <!-- HAMBURGUR NAVBAR FOR MOBILE DEVICES -->
+
         <div class="dropdown">
-            <button class="dropbtn" onclick="myFunction()"><img src="./images/lines.jpg" style="width: 40px;"></button>
+            <button class="dropbtn" onclick="myFunction()">
+            </button>
             <div id="myDropdown" class="dropdown-content">
               <a href="./index.html">HOME</a>
               <a href="./about.html">ABOUT</a>
@@ -33,30 +39,20 @@
               <a href="./contact.html">CONTACT</a>
             </div>
           </div>
-    
-          <script>
-            function myFunction() {
-             document.getElementById("myDropdown").classList.toggle("show");
-            }
-    
-            window.onclick = function(event) {
-             if (!event.target.matches('.dropbtn')) {
-              let dropdowns = document.getElementsByClassName("dropdown-content");
-              let i;
-              for (i = 0; i < dropdowns.length; i++) {
-               let openDropdown = dropdowns[i];
-              if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-           }
-         }
-         }
-        }
-          </script>
-          
+
+         
+          <!-- SEARCH BAR -->
+        <div class="search">
+            <input class="search-bar" placeholder="Type to Search"><button class="btn">Search</button></input>
+        </div>
+
      </div>
-     
+
+     </div>
+
+     <!-- SIGN UP BOX -->
      <div class="signup">
-        <div class="box">
+        <div class="signup-box">
             <form id="signup-form" class="signup-form" onsubmit="save(event)">
                 <h1> CREATE YOUR ACCOUNT</h1>  
                 <div class="field">

@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    
     <title>Task 2</title>
 </head>
 <body>
 
+    <!-- HEADER SECTION -->
      <div class="header">
         <div class="logo">
             <h1>PraRoz</h1>
@@ -24,6 +25,9 @@
             </ul>
 
         </div>
+
+        <!-- HAMBURGUR NAVBAR FOR MOBILE DEVICES -->
+
         <div class="dropdown">
             <button class="dropbtn" onclick="myFunction()">
             </button>
@@ -37,13 +41,14 @@
           </div>
 
          
-
+          <!-- SEARCH BAR -->
         <div class="search">
             <input class="search-bar" placeholder="Type to Search"><button class="btn">Search</button></input>
         </div>
 
      </div>
 
+     <!-- HERO SECTION -->
      <div class="main">
 
         <div class="main-content">
@@ -56,14 +61,16 @@
             <button class="btn2">JOIN US</button>
         </div>
 
+
+        <!-- LOGIN FORM -->
         <div class="FORM">
             <div class="box">
                 <div class="login">Login Here</div>
                 
-                <form class="form1">
+                <form id="form" class="form1">
                    <input id="email" class="email" type="text" placeholder="Enter Email Here">
                     <input id="password" class="password" type="password" placeholder="Enter Password Here">
-                    <button class="btn3" onclick="login()">Login</button>
+                    <button id="btn" class="btn3">Login</button>
                 </form>
 
                 <div class="signup">
@@ -71,6 +78,7 @@
                     <p><a href="./signup.html"><span style="color: #FF7101;">Sign up</span></a> here</p>
                 </div>
 
+                <!-- ICONS -->
                 <div class="login-with"><p>Log in with</p></div>
                 <div class="icons">
                     <img src="./images/facebook.png" alt="facebook-logo" title="facebook">
@@ -88,4 +96,5 @@
      </div>
 
 </body>
+<script src="index.js"></script>
 </html>
